@@ -19,8 +19,13 @@ p {
   margin: 0;
 }
 
-.logo, .header__title, .header__subtitle {
+.logo, .header__title, .header__subtitle, .header__link {
 z-index: 2;
+}
+
+.arrow {
+  width: 24px;
+  height: 24px;
 }
 
 .header {
@@ -60,6 +65,7 @@ z-index: 2;
 }
 
 .header__link {
+  cursor: pointer;
   position: absolute;
   left: 134px;
   bottom: 30px;
