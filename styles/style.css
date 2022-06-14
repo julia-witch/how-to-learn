@@ -3,7 +3,9 @@
   --grey: #f2f2f2;
   --dark-grey: #1f1f1f;
 }
-
+h2, h3, h4 {
+  margin: 0;
+}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -13,10 +15,15 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  box-sizing: border-box;
 }
 
-p {
+.text {
   margin: 0;
+}
+
+.section {
+  padding-top: 100px;
 }
 
 .logo, .header__title, .header__subtitle, .header__link {
@@ -27,6 +34,8 @@ z-index: 2;
   width: 24px;
   height: 24px;
 }
+
+/*header*/
 
 .header {
   position: relative;
@@ -86,7 +95,6 @@ z-index: 2;
   height: 608px;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   z-index: 0;
   position: absolute;
@@ -98,9 +106,125 @@ z-index: 2;
 }
 
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
+/*.table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}*/
+
+/*Секция description*/
+
+.description {
+  display: flex;
+  justify-content: center;
 }
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.two-columns__brief {
+  display: inline-block;
+  width: 175px;
+  color: var(--main-blue);
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2em;
+}
+
+.two-columns__main-text {
+  display: inline-block;
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  padding-bottom: 30px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+}
+
+.two-columns__paragraph:last-child {
+  padding-bottom: 0;
+}
+
+.two-columns__span-accent {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+}
+
+/*Секция digits*/
+
+.digits {
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.section-title, .section-subtitle {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.section-title {
+  padding-bottom: 20px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.15em;
+  text-align: center;
+}
+
+.section-subtitle {
+  padding-bottom: 60px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: center;
+}
+
+.table {
+  margin: 0 auto;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.table-cell {
+  padding-bottom: 60px;
+  width: 250px;
+}
+
+.table-cell:nth-child(5), .table-cell:nth-child(6), .table-cell:nth-child(7), .table-cell:nth-child(8) {
+  padding-bottom: 0;
+}
+
+.table-heading {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.15em;
+}
+
+.table-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+/*Секция feynman*/
+
+.feynman {
+  background-color: var(--grey);
+}
+.feynman__link {}
+
+.feynman__arrow {}
+
+.feynman__image {
+  object-fit: cover;
+  width: 867px;
+  height: 637px;
+}
+
