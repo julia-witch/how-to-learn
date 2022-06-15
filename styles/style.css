@@ -66,7 +66,7 @@ z-index: 2;
   margin: 0;
   padding-left: 64px;
   font-size: 102px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 96px;
   width: 730px;
 }
@@ -203,7 +203,7 @@ z-index: 2;
 
 .table__heading {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.15em;
 }
 
@@ -235,7 +235,7 @@ z-index: 2;
 .feynman__title {
   padding-bottom: 70px;
   font-size: 120px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.15em;
 }
 
