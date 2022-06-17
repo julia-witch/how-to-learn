@@ -12,12 +12,7 @@
   box-sizing: border-box;
 }
 
-.text {
-  margin: 0;
-}
-
 .logo {
-  z-index: 2;
   width: 228px;
   height: 32px;
 }
@@ -25,6 +20,7 @@
 /*header*/
 
 .header {
+  margin: 0;
   position: relative;
   height: 100vh;
   min-height: 600px;
@@ -36,6 +32,7 @@
 }
 
 .logo_place_header {
+  z-index: 2;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -69,7 +66,7 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
-  width: 400px;
+  max-width: 400px;
   text-decoration: none;
 }
 
@@ -80,6 +77,7 @@
   bottom: 0;
   width: 765px;
   height: 608px;
+  object-fit: contain;
 }
 
 .header__square-pic {
@@ -100,11 +98,14 @@
   justify-content: center;
 }
 .two-columns {
+  margin: 0;
+  padding: 0;
   width: 80%;
   display: flex;
   justify-content: space-between;
 }
 .two-columns__brief {
+  margin: 0;
   display: inline-block;
   max-width: 175px;
   color: var(--main-blue);
@@ -141,7 +142,7 @@
 
 .section-title {
   margin: 0 auto;
-  width: 60%;
+  max-width: 60%;
   padding-bottom: 20px;
   font-size: 60px;
   font-weight: 700;
@@ -151,7 +152,7 @@
 
 .section-subtitle {
   margin: 0 auto;
-  width: 60%;
+  max-width: 60%;
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
@@ -170,16 +171,18 @@
 
 .table__cell {
   padding-top: 60px;
-  max-width: 250px;
+  flex-basis: 250px;
 }
 
 .table__heading {
+  margin: 0 auto;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.15em;
 }
 
 .table__text {
+  margin: 0 auto;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2em;
@@ -230,11 +233,6 @@
   right: 48px;
 }
 
-.feynman__arrow {
-  width: 32px;
-  height: auto;
-}
-
 /*Секция kaufman*/
 
 .kaufman {
@@ -253,7 +251,7 @@
 
 .table__cell_theme_dark {
   z-index: 1;
-  max-width: 200px;
+  flex-basis: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
@@ -272,7 +270,7 @@
   padding-bottom: 20px;
 }
 
-.triangle {
+.kaufman__triangle {
   z-index: 0;
   position: absolute;
   top:0;
@@ -287,13 +285,14 @@
 /*footer*/
 
 .footer {
+  min-height: 350px;
+  padding-top: 60px;
   padding-bottom: 40px;
   color: white;
   background-color: var(--dark-grey);
 }
 
 .footer__columns {
-  padding-top: 60px;
   margin: 0 auto;
   max-width:90%;
   display: flex;
@@ -305,17 +304,16 @@
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: space-between;
 }
 
+
 .footer__author {
-  transform: translateY(100%);
-  display: inline-block;
-  padding:18px 0;
+  margin: 0;
+  padding: 18px 0;
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
-
  }
 
 .footer__column-heading{
