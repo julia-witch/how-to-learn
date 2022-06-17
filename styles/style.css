@@ -133,6 +133,10 @@
   padding-bottom: 0;
 }
 
+.two-columns__span-accent {
+  font-weight: 700;
+}
+
 /*Секция digits*/
 
 .digits {
@@ -176,15 +180,21 @@
 }
 
 .table__heading {
+  margin: 0;
+  padding-bottom: 20px;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.15em;
 }
 
 .table__text {
+  margin: 0;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2em;
+}
+.table__text_bank {
+  padding-bottom: 20px;
 }
 
 .table__text:last-child {
@@ -264,7 +274,6 @@
 .section-subtitle_theme_dark {
   position: relative;
   z-index: 1;
-  padding-bottom: 80px;
 }
 
 .section-title_theme_dark {
