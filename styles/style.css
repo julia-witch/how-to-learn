@@ -266,8 +266,7 @@
   z-index: 1;
   flex-basis: 200px;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  padding-top: 80px;
   padding-bottom: 0;
 }
 
@@ -287,11 +286,10 @@
   position: absolute;
   top:0;
   right: -210px;
+  background-image: url("../images/kaufman-triangle.svg");
+  background-size: contain;
   width: 877px;
   height: 877px;
-}
-.kaufman__triangle::before {
-  content:url("../images/kaufman-triangle.svg");
 }
 
 /*footer*/
