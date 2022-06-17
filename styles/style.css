@@ -278,7 +278,7 @@
   width: 877px;
   height: 877px;
 }
-.triangle::before {
+.kaufman__triangle::before {
   content:url("../images/kaufman-triangle.svg");
 }
 
