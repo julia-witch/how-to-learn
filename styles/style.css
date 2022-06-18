@@ -348,22 +348,18 @@
   font-weight: 400;
   line-height: 30px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .footer__column-link:hover {
   cursor: pointer;
 }
 
-.footer__column-link-item {
-  display: flex;
-  align-items: center;
-}
 
 .footer__column-link-text {
   margin: 0;
   padding: 0;
-  color: white;
-  text-decoration: none;
 }
 .footer__social-icon {
   width: 16px;
