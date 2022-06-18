@@ -180,27 +180,15 @@
 }
 
 .table__heading {
-<<<<<<< HEAD
-<<<<<<< HEAD
   margin: 0;
   padding-bottom: 20px;
-=======
->>>>>>> 5fd688e... last update file
-=======
->>>>>>> 5fd688e... last update file
   font-size: 24px;
   font-weight: 700;
   line-height: 1.15em;
 }
 
 .table__text {
-<<<<<<< HEAD
-<<<<<<< HEAD
   margin: 0;
-=======
->>>>>>> 5fd688e... last update file
-=======
->>>>>>> 5fd688e... last update file
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2em;
@@ -360,37 +348,18 @@
   font-weight: 400;
   line-height: 30px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .footer__column-link:hover {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5fd688e... last update file
-.footer__column-link-item {
-  display: flex;
-  align-items: center;
-}
-<<<<<<< HEAD
->>>>>>> 5fd688e... last update file
-=======
->>>>>>> 5fd688e... last update file
 
 .footer__column-link-text {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5fd688e... last update file
-  color: white;
-  text-decoration: none;
->>>>>>> 5fd688e... last update file
 }
 .footer__social-icon {
   width: 16px;
