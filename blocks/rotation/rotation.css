@@ -1,0 +1,12 @@
+.type__rotation {
+    animation: rotation 20s ease-in-out infinite;
+}
+
+@keyframes rotation{
+     from {
+         transform: rotate(0deg);
+     }
+     to {
+         transform: rotate(360deg);
+     }
+ }

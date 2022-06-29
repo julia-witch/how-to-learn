@@ -1,0 +1,6 @@
+.khan {
+    z-index: -1;
+    overflow: hidden;
+    background-color: var(--grey);
+    padding-top: 105px;
+}
