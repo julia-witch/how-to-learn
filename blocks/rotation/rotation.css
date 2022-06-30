@@ -1,5 +1,5 @@
-.type-rotation {
-    animation: rotation 20s ease-in-out infinite;
+.rotation {
+    animation: rotation 20s linear infinite;
 }
 
 @keyframes rotation{

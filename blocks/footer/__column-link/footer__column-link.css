@@ -6,11 +6,11 @@
     text-decoration: none;
     display: flex;
     align-items: center;
+    transition: 1.5s;
 }
 
 .footer__column-link:hover {
     cursor: pointer;
     opacity:50%;
-    transition: 1.5s;
 }
 
